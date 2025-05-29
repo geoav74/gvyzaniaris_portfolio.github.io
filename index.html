@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>GeorgiosVyzaniaris — Portfolio</title>
+    <link rel="icon" href="images/favicon1.ico" type="image/x-icon"/>
+
+    <meta name="description" content="Welcome to my portfolio. Here you can find my projects and more about me."/>
+    <meta name="keywords" content="portfolio, projects, data science"/>
+    <meta name="author" content="Georgios Vyzaniaris"/>
+    
+    <!-- Global CSS & Nav references -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+    <!-- Content CSS references -->
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">    
+    
+</head>
+<body>
+    <header>
+        <!-- ======== Navigation bar Section ======== -->
+        <nav class="navbar">
+            <ul class="nav-list">            
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav> 
+    </header>
+
+    <main>
+        <!-- ======== About Section ======== -->
+        <section id="about" class="about-section">
+            <h2>About</h2>
+            <div class="about-content">
+            <img src="images/about/profile_photo.jpg" alt="My portrait">
+            <div class="about-text">
+                <p>
+                    Dedicated Data Scientist with over 20 years of military leadership experience 
+                    in high-stakes environments. Leveraging analytical expertise and machine-learning 
+                    skills to drive data-informed decision-making, ensuring complex challenges are 
+                    met with robust solutions.
+                </p>
+                <p>
+                    Experienced in Python-based model development (NumPy, Pandas, scikit-learn, 
+                    TensorFlow), optimization techniques, and ETL processes, as well as data 
+                    visualization (matplotlib, seaborn, plotly, and Tableau) and reporting. 
+                    A proven communicator, excel at aligning cross-functional teams toward 
+                    strategic objectives and eager to expand my knowledge into cloud technologies.
+                </p>
+            </div>
+            </div>
+        </section>
+
+        <!-- ======== Projects Section ======== -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+
+            <template id="project-item-template">
+                <div class="project-item">
+                    <span class="status-badge"></span>
+                    <img src="" alt="">
+                    <div class="project-info">
+                        <h3></h3>
+                        <p></p>
+                        <a class="project-button" target="_blank" rel="noopener">View Project</a>
+                    </div>
+                </div>
+            </template>
+        
+            <!-- Container to be filled by JS -->
+            <div class="projects-grid"></div> 
+        </section>
+
+        <!-- ======== Skills Section ======== -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            
+            <template id="skill-item-template">
+                <div class="skill-item">
+                  <img src="" alt="">
+                  <p></p>
+                </div>
+            </template>
+
+            <!-- Container to be filled by JS -->
+            <div class="skills-grid"></div>            
+        </section>
+
+        <!-- ======== Contact Section ======== -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to connect with me on any of the platforms below:</p>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/georgevizaniaris/" target="_blank" rel="noopener">
+                <img src="icons/linkedin.png" alt="LinkedIn">
+              </a>
+              <a href="https://github.com/geoav74" target="_blank" rel="noopener">
+                <img src="icons/github.png" alt="GitHub">
+              </a>              
+            </div>
+          </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 - Created by Georgios Vyzaniaris</p>
+    </footer>
+    <script src="js/data.js" ></script>
+    <script src="js/template_filler.js" ></script>   
+</body>
+</html>

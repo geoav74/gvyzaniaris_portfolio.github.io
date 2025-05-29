@@ -1,0 +1,42 @@
+/* ================= About Section—about.css ================= */
+
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;      /* center block */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-content img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;    /* fill the box */
+    border-radius: 20px;  /* rounded corners */
+    margin-bottom: 40px;  /* space below image */
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-text p:last-child {
+    margin-bottom: 0;
+  }

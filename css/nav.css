@@ -1,0 +1,47 @@
+/* ================ Navigation — nav.css ================ */
+
+/* enable smooth scrolling for all in-page links */
+html {
+    scroll-behavior: smooth;
+  }
+
+main {
+    margin-top: 50px; /* Adjust for fixed navbar */
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 20px;
+  }
+  
+  .nav-list li {
+    margin: 0 16px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    background-color: rgba(0,0,0,0.05);
+    color: #007acc;
+  }
+  

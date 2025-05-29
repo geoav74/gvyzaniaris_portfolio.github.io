@@ -1,0 +1,59 @@
+:root {
+    --clr-primary:   #007acc;
+    --clr-primary-50: rgba(0, 122, 204, 0.1);
+    --clr-secondary: #333;
+    --clr-bg-light:  #f9f9f9;
+    --clr-white:     #fff;
+    --ff-sans:       "Helvetica Neue", Arial, sans-serif;
+    --transition:    0.3s ease; /* Transition duration for hover effects */
+  }
+
+  html {
+    font-family: var(--ff-sans);
+    font-size: 16px;            /* base size */
+    line-height: 1.6;           /* line height for readability */
+  }
+  
+  h2 {
+    font-size: 2.75rem;         /* larger heading */
+    color: var(--clr-primary); /* primary color for headings */
+    margin-bottom: 0.5em;   /* space below headings */
+  }
+  
+  p {
+    color: var(--clr-secondary);
+    margin-bottom: 1.25em;      /* more space between paragraphs */
+  }
+
+.about-section,
+.skills-section,
+.contact-section {
+  background-color: var(--clr-bg-light); /* Light background for sections */
+}
+
+.projects-section {
+  background-color: var(--clr-white); /* White background for projects section */
+}
+
+.about-content,
+.projects-grid,
+.skills-grid,
+.contact-links { 
+  opacity: 0; /* Initial state for fade-in effect */
+  transform: translateY(20px); /* Initial state for fade-in effect */
+  animation: fadeInUp 0.8s forwards; /* Fade-in effect for sections */
+  animation-delay: 0.3s; /* Delay for effect */
+}
+
+@keyframes fadeInUp { /* Fade-in effect for sections */
+  to { /* Final state */
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+@media (max-width: 600px) { /* Responsive adjustments */
+    .projects-grid { grid-template-columns: 1fr; } /* Single column for small screens */
+    .skills-grid   { grid-template-columns: repeat(2, 1fr); } /* Two columns for small screens */
+  }
+  

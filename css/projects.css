@@ -1,0 +1,115 @@
+/* ================ Projects Section — projects.css ================ */
+
+.projects-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+  
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+  
+
+.project-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-item img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+  
+.project-info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 15px;
+}
+  
+/* button styles */
+.project-button {
+  border: 2px solid var(--clr-primary);
+  background-color: transparent;
+  color: var(--clr-primary);
+  padding: 10px 24px;
+  font-weight: 600;
+  transition: background-color var(--transition), color var(--transition);
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+  
+.project-button:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.project-info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+  
+/* status badge common styles */
+.status-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* completed = green, on-going = amber */
+.status-badge.completed {
+  background-color: #28a745;
+}
+
+.status-badge.on-going {
+  background-color: #ff8c00;
+}
+
+.status-badge.scheduled {
+  background-color: #6c757d;
+}
+
+/* hide the View Project button for non‐completed cards */
+.project-item.on-going .project-button,
+.project-item.scheduled  .project-button {
+  display: none;
+}

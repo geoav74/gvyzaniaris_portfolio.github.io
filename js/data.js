@@ -4,7 +4,7 @@ readability and maintenance.
 */
 
 /*
-Each object in this array represents one projectcard.
+Each object in this array represents one project card.
 - img: path to the project image
 - alt: alt text for accessibility
 - title: the project title
@@ -19,19 +19,19 @@ desc: 'Case study presenting how the DS standard of living is affected by their 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025',
 status: 'completed'},
 
+{ img: 'images/projects/defence_industry.jpg', 
+alt: 'Defence manufacturing line', 
+title: 'Retrieving DEF Companies\' Contact Information', 
+desc: 'Case study presenting contact information retrieval and DB storing process.', 
+url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',
+status: 'completed'},
+  
 { img: 'images/projects/madrid_terror.jpeg', 
 alt: '2004 terrorist attack in Madrid', 
 title: 'Exploring Terror in EUR', 
-desc: 'Case study exploring the nature, lethality and modus operandi of terrorist activity across EUR (2000-2020)', 
+desc: 'Case study exploring the nature, lethality, and modus operandi of terrorist activity across EUR (2000-2020)', 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025', 
-status: 'on-going'},
-
-/* { img: 'images/projects/data_scientist_salaries.jpg', 
-alt: '', 
-title: 'Project #3', 
-desc: 'Description...', 
-url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025', 
-status: 'scheduled'} */
+status: 'on-going'}
 ];
 
 /*

@@ -19,7 +19,6 @@
 }
 
 .project-item {
-  position: relative;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
@@ -27,6 +26,9 @@
   transition: transform var(--transition), box-shadow var(--transition);
 }
   
+.graphic-container {
+  position: relative;
+}
 
 .project-item:hover {
   transform: translateY(-8px);

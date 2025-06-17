@@ -83,7 +83,7 @@
 }
   
 /* status badge common styles */
-.status-badge {
+.project-item.status-badge {
   position: absolute;
   /*top: 12px;
   right: 12px;*/

@@ -21,7 +21,7 @@ status: 'completed'},
 
 { img: 'images/projects/defence_industry.jpg', 
 alt: 'Defence manufacturing line', 
-title: 'Retrieving DEF Companies\' Contact Information', 
+title: 'Retrieving Contact Information', 
 desc: 'Case study presenting contact information retrieval and DB storing process.', 
 url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',
 status: 'completed'},

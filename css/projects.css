@@ -106,6 +106,7 @@
 
 .status-badge.on-going {
   background-color: #ff8c00;
+  animation: flashing 2s infinite ; /* flashing effect for on-going status */
 }
 
 .status-badge.scheduled {
@@ -116,4 +117,17 @@
 .project-item.on-going .project-button,
 .project-item.scheduled  .project-button {
   display: none;
+}
+
+/* flashing effect sequence*/
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

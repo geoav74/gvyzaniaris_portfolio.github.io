@@ -19,8 +19,8 @@ desc: 'Case study presenting how the DS standard of living is affected by their 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025',
 status: 'completed'},
 
-{ img: 'images/projects/defence_industry.jpg', 
-alt: 'Defence manufacturing line', 
+{ img: 'images/projects/scraping.avif', 
+alt: 'Scraping a site', 
 title: 'Retrieving Contact Information', 
 desc: 'Case study presenting contact information retrieval and DB storing process.', 
 url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',

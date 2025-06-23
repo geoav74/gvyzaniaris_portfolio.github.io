@@ -13,14 +13,14 @@ Each object in this array represents one project card.
 */
 const projects = [
 { img: 'images/projects/data_scientist_salaries.jpg', 
-alt: 'Data Scientist Salaries', 
+alt: 'A bag full of money attached to a lifted balloon representing life.', 
 title: 'Data Scientists Salaries in EUR', 
 desc: 'Case study presenting how the DS standard of living is affected by their salaries across EUR countries.', 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025',
 status: 'completed'},
 
 { img: 'images/projects/scraping.avif', 
-alt: 'Scraping a site', 
+alt: 'A screen showing a piece of code for scraping a site.', 
 title: 'Retrieving Contact Information', 
 desc: 'Case study presenting contact information retrieval and DB storing process.', 
 url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',
@@ -31,7 +31,14 @@ alt: '2004 terrorist attack in Madrid',
 title: 'Exploring Terror in EUR', 
 desc: 'Case study exploring the nature, lethality, and modus operandi of terrorist activity across EUR (2000-2020)', 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025', 
-status: 'on-going'}
+status: 'on-going'},
+
+{ img: 'images/projects/geo_incidents.avif', 
+alt: 'A map with pins on it.', 
+title: 'Geospatial Security Analysis', 
+desc: 'Mapping historical security incidents to identify hotspots and regional patterns.', 
+url: '', 
+status: 'scheduled'}
 ];
 
 /*

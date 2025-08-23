@@ -21,7 +21,7 @@ status: 'completed'},
 
 { img: 'images/projects/scraping.avif', 
 alt: 'A screen showing a piece of code for scraping a site.', 
-title: 'Contact Information Retrieval', 
+title: 'Information Retrieval', 
 desc: 'Case study on contact information retrieval and DB storing process.', 
 url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',
 status: 'completed'},
@@ -83,4 +83,5 @@ name: 'Leadership & Strategic Planning' },
 alt: 'Data Storytelling', 
 name: 'Data Storytelling' }
 ];
+
 

@@ -15,7 +15,7 @@ const projects = [
 { img: 'images/projects/data_scientist_salaries.jpg', 
 alt: 'A bag full of money attached to a lifted balloon representing life.', 
 title: 'Data Scientists Salaries', 
-desc: "Case study on how the DSs' standard of living is affected by their salaries across EU.", 
+desc: "Case study on how the DSs' standard of living is affected by their salaries.", 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025',
 status: 'completed'},
 
@@ -83,5 +83,6 @@ name: 'Leadership & Strategic Planning' },
 alt: 'Data Storytelling', 
 name: 'Data Storytelling' }
 ];
+
 
 

@@ -14,18 +14,25 @@ Each object in this array represents one project card.
 const projects = [
 { img: 'images/projects/data_scientist_salaries.jpg', 
 alt: 'A bag full of money attached to a lifted balloon representing life.', 
-title: 'Data Scientists Salaries in EUR', 
-desc: 'Case study presenting how the DS standard of living is affected by their salaries across EUR countries.', 
+title: 'Data Scientists Salaries', 
+desc: "Case study on how the DSs' standard of living is affected by their salaries across EU.", 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025',
 status: 'completed'},
 
 { img: 'images/projects/scraping.avif', 
 alt: 'A screen showing a piece of code for scraping a site.', 
-title: 'Retrieving Contact Information', 
-desc: 'Case study presenting contact information retrieval and DB storing process.', 
+title: 'Contact Information Retrieval', 
+desc: 'Case study on contact information retrieval and DB storing process.', 
 url: 'https://github.com/geoav74/data_engineering/tree/main/etl_web',
 status: 'completed'},
-  
+
+{ img: 'images/projects/choices.jpg',
+    alt: 'A man thinking between laptop brands and his criteria.', 
+    title: 'Laptop Selection', 
+    desc: 'Forming and implementing a decision-making process for laptop selection.', 
+    url: '', 
+    status: 'on-going'},
+
 { img: 'images/projects/madrid_terror.jpeg', 
 alt: '2004 terrorist attack in Madrid', 
 title: 'Exploring Terror in EUR', 
@@ -35,7 +42,7 @@ status: 'on-going'},
 
 { img: 'images/projects/geo_incidents.avif', 
 alt: 'A map with pins on it.', 
-title: 'Geospatial Security Analysis', 
+title: 'Geospatial Sec. Analysis', 
 desc: 'Mapping historical security incidents to identify hotspots and regional patterns.', 
 url: '', 
 status: 'scheduled'}
@@ -76,3 +83,4 @@ name: 'Leadership & Strategic Planning' },
 alt: 'Data Storytelling', 
 name: 'Data Storytelling' }
 ];
+

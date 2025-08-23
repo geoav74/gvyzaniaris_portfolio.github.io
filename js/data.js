@@ -36,7 +36,7 @@ status: 'completed'},
 { img: 'images/projects/madrid_terror.jpeg', 
 alt: '2004 terrorist attack in Madrid', 
 title: 'Exploring Terror in EUR', 
-desc: 'Case study exploring the nature, lethality, and modus operandi of terrorist activity across EUR (2000-2020)', 
+desc: 'Exploring the nature, lethality, and modus operandi of terrorist activity in EU.', 
 url: 'https://github.com/geoav74/Data_Scientist_Salaries_in_EUR_2025', 
 status: 'on-going'},
 
@@ -83,6 +83,7 @@ name: 'Leadership & Strategic Planning' },
 alt: 'Data Storytelling', 
 name: 'Data Storytelling' }
 ];
+
 
 
 

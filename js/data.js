@@ -30,8 +30,8 @@ status: 'completed'},
     alt: 'A man thinking between laptop brands and his criteria.', 
     title: 'Laptop Selection', 
     desc: 'Forming and implementing a decision-making process for laptop selection.', 
-    url: '', 
-    status: 'on-going'},
+    url: 'https://github.com/geoav74/laptop_selection', 
+    status: 'completed'},
 
 { img: 'images/projects/madrid_terror.jpeg', 
 alt: '2004 terrorist attack in Madrid', 
@@ -83,6 +83,7 @@ name: 'Leadership & Strategic Planning' },
 alt: 'Data Storytelling', 
 name: 'Data Storytelling' }
 ];
+
 
 
 
